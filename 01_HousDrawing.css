@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    -moz-box-align: center;
+    min-height: 100hv;
+    overflow: hidden;
+}
+
+.house{
+    position: relative;
+    width: 700px;
+    height: 360px;
+    background: #ccc;
+    border-bottom: 8px solid #175117;
+}
+
+.main{
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 200px;
+    background: #fff;
+}
