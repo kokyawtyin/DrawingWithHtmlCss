@@ -284,3 +284,25 @@ body{
     border-top: 5px solid #333;
     border-bottom: 5px solid #333;
 }
+
+.tree{
+    position: absolute;
+    right: -120px;
+    top: -10px;
+    width: 120px;
+    height: 120px;
+    background: #94ab38;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    transform: rotate(315deg);
+}
+.tree::before{
+    content: '';
+    position: absolute;
+    top: 85px;
+    left: -20px;
+    width: 10px;
+    height: 100px;
+    background: #3c2703;
+    transform: rotate(45deg);
+}
