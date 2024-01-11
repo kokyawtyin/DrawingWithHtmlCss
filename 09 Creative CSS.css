@@ -145,5 +145,55 @@ body{
     position: relative;
     width: 45px;
     height: 45px;
+    /* background: #fff; */
+}
+
+.eyes .eye::before{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 0 -3px 0 #111;
+}
+
+.eyes .eye i{
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #fff;
+    border-radius: 50%;
+}
+
+.eyes .eye i::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #111;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #3d5d89;
+    transform: translate(-10px, 2px);
+}
+
+.mouth{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 30px;
+    background: #ff4e57;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: inset 0 10px 0 rgba(0, 0, 0, 0.2);
 }
