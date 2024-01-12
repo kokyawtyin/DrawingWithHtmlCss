@@ -17,7 +17,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../img/bg.jpg);
+    background: url(../img/bg2.jpg);
     background-size: cover;
 }
 .banner .content{
@@ -40,4 +40,41 @@ p{
     padding: 10px 30px;
     margin-top: 20px;
     text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
 }
+.btn:hover{
+    letter-spacing: 6px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header .logo span{
+    color: #ff0157;
+}
+
+header .navigation{
+    position: relative;
+    display: flex;
+}
+header .navigation li{
+    list-style: none;
+    margin-left: 30px;
+}
+/* end lesson tim 9:10 */
