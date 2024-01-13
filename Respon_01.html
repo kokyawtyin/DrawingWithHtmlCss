@@ -25,5 +25,25 @@
             <a href="#" class="btn">Our Menu</a>
         </div>
     </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget commodo lacus, at congue dui. Vivamus hendrerit, dui vel fermentum egestas, velit magna sollicitudin tellus, eget condimentum lacus magna a lacus. Donec vel pretium ex, eu dapibus ante. Aliquam condimentum eros iaculis fermentum ornare. Curabitur a nulla vel est volutpat pulvinar eu ac dolor. Quisque tellus libero, placerat in congue a, facilisis id diam. Curabitur id consectetur ex. Sed elementum iaculis turpis, congue maximus ante convallis vitae. Suspendisse semper iaculis magna, ultricies venenatis purus sagittis elementum. Proin dignissim scelerisque dolor sit amet laoreet. Ut aliquam euismod tristique. Nulla semper lorem dui, id semper turpis posuere vitae. Morbi accumsan quis neque dictum iaculis. Phasellus pellentesque rhoncus lectus. Etiam ex ex, molestie sed ligula ut, lobortis auctor ante. Maecenas eget finibus urna.</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="img/bg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
 </body>
 </html>
