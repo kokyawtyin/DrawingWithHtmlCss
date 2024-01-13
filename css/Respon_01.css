@@ -28,6 +28,9 @@ p{
     font-size: 5em;
     color: #fff;
 }
+.banner .content h2 span{
+    color: #ff0157;
+}
 .banner .content p{
     font-size: 1em;
     color: #fff;
