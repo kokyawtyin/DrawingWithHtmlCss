@@ -95,7 +95,7 @@ header .logo {
     text-decoration: none;
 }
 
-header.sticky .logo{
+header.sticky .logo {
     color: #fff;
 }
 
@@ -120,7 +120,7 @@ header .navigation li a {
 }
 
 header.sticky .navigation li a {
-    color: #fff;
+    color: #111;
 }
 
 header .navigation li a:hover {
@@ -138,30 +138,30 @@ section {
     justify-content: space-between;
 }
 
-.row .col50{
+.row .col50 {
     position: relative;
     width: 48%;
 }
 
-.titleText{
+.titleText {
     color: #111;
     font-size: 2em;
     font-weight: 300;
 }
 
-.titleText span{
+.titleText span {
     color: #ff0157;
     font-weight: 700;
     font-size: 1.5em;
 }
 
-.row .col50 .imgBx{
+.row .col50 .imgBx {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.row .col50 .imgBx img{
+.row .col50 .imgBx img {
     position: absolute;
     top: 0;
     left: 0;
@@ -170,7 +170,7 @@ section {
     object-fit: cover;
 }
 
-.title{
+.title {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -178,7 +178,11 @@ section {
     flex-direction: column;
 }
 
-.menu .content{
+.menu {
+    background: #c5c5c5;
+}
+
+.menu .content {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
@@ -186,20 +190,20 @@ section {
     margin-top: 40px;
 }
 
-.menu .content .box{
+.menu .content .box {
     width: 340px;
     margin: 20px;
     border: 15px solid #fff;
     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
 }
 
-.menu .content .box .imgBx{
+.menu .content .box .imgBx {
     position: relative;
     width: 100%;
     height: 300px;
 }
 
-.menu .content .box .imgBx img{
+.menu .content .box .imgBx img {
     position: absolute;
     top: 0;
     left: 0;
@@ -208,16 +212,16 @@ section {
     object-fit: cover;
 }
 
-.menu .content .box .text{
+.menu .content .box .text {
     padding: 15px 0 5px;
 }
 
-.menu .content .box .text h2{
+.menu .content .box .text h2 {
     font-weight: 400;
     color: #111;
 }
 
-.expert .content{
+.expert .content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -225,18 +229,18 @@ section {
     margin-top: 40px;
 }
 
-.expert .content .box{
+.expert .content .box {
     width: 250px;
     margin: 15px;
 }
 
-.expert .content .box .imgBx{
+.expert .content .box .imgBx {
     position: relative;
     width: 100%;
     height: 300px;
 }
 
-.expert .content .box .imgBx img{
+.expert .content .box .imgBx img {
     position: absolute;
     top: 0;
     left: 0;
@@ -245,26 +249,26 @@ section {
     object-fit: cover;
 }
 
-.expert .content .box .text{
+.expert .content .box .text {
     padding: 15px 0 5px;
 }
 
-.expert .content .box .text h3{
+.expert .content .box .text h3 {
     font-weight: 400;
     color: #111;
 }
 
-.testimonials{
+.testimonials {
     background: url(img/bg.jpg);
     background-size: cover;
 }
 
 .white .titleText,
-.white p{
+.white p {
     color: #000;
 }
 
-.testimonials .content{
+.testimonials .content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -272,7 +276,7 @@ section {
     margin-top: 40px;
 }
 
-.testimonials .content .box{
+.testimonials .content .box {
     width: 340px;
     margin: 20px;
     padding: 40px;
@@ -283,7 +287,7 @@ section {
     flex-direction: column;
 }
 
-.testimonials .content .box .imgBx{
+.testimonials .content .box .imgBx {
     position: relative;
     width: 80px;
     height: 80px;
@@ -292,7 +296,7 @@ section {
     overflow: hidden;
 }
 
-.testimonials .content .box .imgBx img{
+.testimonials .content .box .imgBx img {
     position: absolute;
     top: 0;
     left: 0;
@@ -301,30 +305,30 @@ section {
     object-fit: cover;
 }
 
-.testimonials .content .box .text{
-   text-align: center;
+.testimonials .content .box .text {
+    text-align: center;
 }
 
-.testimonials .content .box .text p{
+.testimonials .content .box .text p {
     color: #666;
     font-style: italic;
 }
 
-.testimonials .content .box .text h3{
+.testimonials .content .box .text h3 {
     font-size: 1em;
     color: #ff0157;
     margin-top: 20px;
     font-weight: 600;
 }
 
-.contact{
+.contact {
     background: #11998e;
-    background: -webkit-linear-gradient(to right, rgba(56, 239, 125,0.75), rgba(17, 153, 142,0.5)), url(img/bg3.jpg);
-    background: linear-gradient(to right, rgba(56, 239, 125,0.75), rgba(17, 153, 142,0.5)), url(img/bg3.jpg);
-    background-size: cover;    
+    background: -webkit-linear-gradient(to right, rgba(56, 239, 125, 0.75), rgba(17, 153, 142, 0.5)), url(img/bg3.jpg);
+    background: linear-gradient(to right, rgba(56, 239, 125, 0.75), rgba(17, 153, 142, 0.5)), url(img/bg3.jpg);
+    background-size: cover;
 }
 
-.contactForm{
+.contactForm {
     padding: 75px 50px;
     background: #fff;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
@@ -332,21 +336,21 @@ section {
     margin-top: 50px;
 }
 
-.contactForm h3{
+.contactForm h3 {
     color: #111;
     font-size: 1.2em;
     margin-bottom: 20px;
     font-weight: 500;
 }
 
-.contactForm .inputBox{
+.contactForm .inputBox {
     position: relative;
     width: 100%;
     margin-bottom: 20px;
 }
 
 .contactForm .inputBox input,
-.contactForm .inputBox textarea{
+.contactForm .inputBox textarea {
     width: 100%;
     border: 1px solid #555;
     padding: 10px;
@@ -357,7 +361,7 @@ section {
     resize: none;
 }
 
-.contactForm .inputBox input[type="submit"]{
+.contactForm .inputBox input[type="submit"] {
     font-size: 1em;
     color: #fff;
     background: #ff0157;
@@ -372,36 +376,38 @@ section {
     cursor: pointer;
 }
 
-.contactForm .inputBox input[type="submit"]:hover{
+.contactForm .inputBox input[type="submit"]:hover {
     letter-spacing: 6px;
 }
 
-.copyrightText{
+.copyrightText {
     padding: 8px 40px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.copyrightText p{
+.copyrightText p {
     color: #333;
 }
 
-.copyrightText a{
+.copyrightText a {
     color: #ff0157;
     font-weight: 500;
     text-decoration: none;
 }
 
-@media (max-width: 991px){
-    header, header.sticky{
+@media (max-width: 991px) {
+
+    header,
+    header.sticky {
         padding: 10px 20px;
     }
 
-    header .navigation{
+    header .navigation {
         display: none;
     }
 
-    header .navigation.active{
+    header .navigation.active {
         width: 100%;
         height: calc(100%-68px);
         position: fixed;
@@ -414,17 +420,17 @@ section {
         background: #fff;
     }
 
-    header .navigation li{
+    header .navigation li {
         margin-left: 0;
     }
-    
-    header .navigation li a{
+
+    header .navigation li a {
         text-decoration: none;
         color: #111;
         font-size: 1.6em;
     }
 
-    .menuToggle{
+    .menuToggle {
         position: relative;
         width: 40px;
         height: 40px;
@@ -435,24 +441,79 @@ section {
         cursor: pointer;
     }
 
-    .menuToggle.active{
+    .menuToggle.active {
         background: url(img/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
     }
-    
-    header.sticky .menuToggle{
+
+    header.sticky .menuToggle {
         filter: invert(1);
     }
 
-    section{
+    section {
         padding: 20px;
     }
 
-    .banner .content h2{
+    .banner .content h2 {
         font-size: 3em;
+        color: #fff;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row .col50 {
+        position: relative;
+        width: 100%;
+    }
+
+    .row .col50 .imgBx {
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .menu .content{
+        margin-top: 20px;
+    }
+
+    .menu .content .box{
+        margin: 10px;
+    }
+
+    .menu .content .box .imgBx{
+        height: 260px;
+    }
+
+    .title{
+        text-align: center;
+    }
+
+    .titleText{
+        font-size: 2.2em;
+        line-height: 1.5em;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+
+    .testimonials .content .box{
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .contactForm{
+        padding: 35px 40px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px){
+    .banner .content h2{
+        font-size: 2.2em;
         color: #fff;
     }
 }
