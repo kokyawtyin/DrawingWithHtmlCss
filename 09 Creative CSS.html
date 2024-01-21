@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative CSS and Javascript Effects</title>
-    <link rel="stylesheet" href="09 Creative CSS.css">
+    <link rel="stylesheet" href="css/09 Creative CSS.css">
 </head>
 
 <body>
@@ -25,9 +25,24 @@
             </div>
         </div>
     </div>
-
+    <div class="box">
+        <div class="hair"></div>
+        <div class="bottom">
+            <span></span>
+        </div>
+        <div class="head">
+            <div class="neck"></div>
+            <div class="face">
+                <div class="eyes">
+                    <span class="eye"><i></i></span>
+                    <span class="eye"><i></i></span>
+                </div>
+                <div class="mouth"></div>
+            </div>
+        </div>
+    </div>
     <script>
-        document.querySelector('.face').addEventListener('mousemove', eyeball);
+        document.querySelector('body').addEventListener('mousemove', eyeball);
 
         function eyeball(){
             let eye = document.querySelectorAll('.eye i');

@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     min-height: 100vh;
     background: #edf8ff;
 }
@@ -219,4 +220,23 @@ body {
     background: #111;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
-} 
+}
+
+/* clone from div class box*/
+.box:nth-child(2) .bottom {
+    background: #ffcc14;
+}
+
+.box:nth-child(2) .hair {
+    bottom: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.box:nth-child(2) .bottom span,
+.box:nth-child(2) .bottom span::before,
+.box:nth-child(2) .bottom span::after{
+    background: #d9174c;
+}
+
+/* Finish CSS */
