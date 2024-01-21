@@ -23,7 +23,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(img/bg2.jpg);
+    background: url(../img/bg2.jpg);
     background-size: cover;
 }
 
@@ -323,8 +323,8 @@ section {
 
 .contact {
     background: #11998e;
-    background: -webkit-linear-gradient(to right, rgba(56, 239, 125, 0.75), rgba(17, 153, 142, 0.5)), url(img/bg3.jpg);
-    background: linear-gradient(to right, rgba(56, 239, 125, 0.75), rgba(17, 153, 142, 0.5)), url(img/bg3.jpg);
+    background: -webkit-linear-gradient(to right, rgba(56, 239, 125, 0.75), rgba(17, 153, 142, 0.5)), url(../img/bg3.jpg);
+    background: linear-gradient(to right, rgba(56, 239, 125, 0.75), rgba(17, 153, 142, 0.5)), url(../img/bg3.jpg);
     background-size: cover;
 }
 
