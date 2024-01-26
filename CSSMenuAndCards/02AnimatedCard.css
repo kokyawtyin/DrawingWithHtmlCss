@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-:root{
+
+:root {
     --clr: #222;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: var(--clr);
 }
-.container{
+
+.container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -24,7 +27,8 @@ body{
     flex-wrap: wrap;
     gap: 60px;
 }
-.container .card{
+
+.container .card {
     position: relative;
     width: 320px;
     height: 250px;
@@ -37,21 +41,25 @@ body{
     cursor: pointer;
     transition: 0.5s;
 }
-.container .card:hover{
+
+.container .card:hover {
     height: 350px;
 }
-.container .card .imgBx{
+
+.container .card .imgBx {
     position: absolute;
     inset: 20px 20px 50px 20px;
     background: #f00;
     border-radius: 15px;
     transition: 0.5s;
 }
-.container .card:hover .imgBx{
+
+.container .card:hover .imgBx {
     inset: -50px 60px 250px 60px;
     box-shadow: 0 0 0 10px var(--clr);
 }
-.container .card .imgBx::before{
+
+.container .card .imgBx::before {
     content: '';
     position: absolute;
     width: 20px;
@@ -65,11 +73,13 @@ body{
     pointer-events: none;
     transition: 0.5s;
 }
-.container .card:hover .imgBx::before{
+
+.container .card:hover .imgBx::before {
     opacity: 1;
     transform: translateY(50px);
 }
-.container .card .imgBx::after{
+
+.container .card .imgBx::after {
     content: '';
     position: absolute;
     width: 20px;
@@ -83,11 +93,13 @@ body{
     pointer-events: none;
     transition: 0.5s;
 }
-.container .card:hover .imgBx::after{
+
+.container .card:hover .imgBx::after {
     opacity: 1;
     transform: translateY(50px);
 }
-.container .card .imgBx img{
+
+.container .card .imgBx img {
     position: absolute;
     top: 0;
     left: 0;
@@ -96,7 +108,8 @@ body{
     object-fit: cover;
     border-radius: 15px;
 }
-.container .card p{
+
+.container .card p {
     position: relative;
     padding: 40px;
     text-align: center;
@@ -105,12 +118,14 @@ body{
     transform: translateY(-50px);
     transition: 0.5s;
 }
-.container .card:hover p{
+
+.container .card:hover p {
     opacity: 1;
     visibility: visible;
     transform: translateY(40px);
 }
-.container .card h2{
+
+.container .card h2 {
     position: absolute;
     bottom: 8px;
     color: #333;
@@ -118,7 +133,7 @@ body{
     font-weight: 600;
 }
 
-.container .card:hover h2{
+.container .card:hover h2 {
     padding: 5px 25px;
     background: #65ff50;
     bottom: -25px;
@@ -126,7 +141,8 @@ body{
     box-shadow: 0 0 0 10px var(--clr);
     color: rgb(2, 95, 2);
 }
-.container .card h2:hover{
+
+.container .card h2:hover {
     color: #f00;
     letter-spacing: 5px;
 }
