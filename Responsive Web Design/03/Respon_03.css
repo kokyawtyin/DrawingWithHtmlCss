@@ -70,8 +70,31 @@
     height: 28px;
     /* background: url(imgg/menu.png); */
     /* background-size: cover; */
+    cursor: pointer;
 }
 .material-symbols-outlined{
     color: #fff;
     font-size: 30px;
+}
+.about{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.about .contentBx{
+    background: #162c3b;
+    padding: 100px;
+    width: 50%;
+}
+.heading{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.text{
+    color: #fff;
+    font-size: px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
