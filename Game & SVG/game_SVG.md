@@ -32,3 +32,4 @@
 # svg28 Countdown Timer in Vanilla Javascript | CSS SVG Circle Countdown Time Animation
 # svg29 CSS Animation Effects
 
+# svg29 Animate Any SVG icons with CSS Only | SVG Stroke Animation With Html CSS https://www.youtube.com/watch?v=0cYdA4MBwhk
